@@ -18,6 +18,8 @@ public class actionClass {
 		  a.moveToElement(driver.findElement(By.cssSelector("input[id='twotabsearchtextbox']"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick() .build().perform();
 		//  a.doubleClick(driver.findElement(By.cssSelector("input[type='text']"))).build().perform();
 		  a.moveToElement(move).contextClick().build().perform();
+		  
+		  System.out.println("Hello new code");
 
 	}
 
